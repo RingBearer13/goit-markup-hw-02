@@ -1,0 +1,186 @@
+:root {
+  --main-color: #212121;
+  --active-color: #2196f3;
+  --background-color: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--background-color);
+  color: var(--main-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.web-letters {
+  color: var(--active-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+
+.studio-letters-footer {
+  color: var(--background-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+
+.studio-letters-header {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+}
+
+.main-navigation:active {
+  color: var(--active-color);
+}
+
+.header-contact-list {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+}
+
+.main-page-head {
+  color: var(--background-color);
+  text-align: center;
+  background-size: 1600px 600px;
+  background-color: #2f303a;
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+}
+
+.main-page-head:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--active-color);
+}
+
+.button {
+  background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-page-button {
+  width: 200;
+  height: 50;
+  color: var(--background-color);
+  background-color: var(--active-color);
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--active-color);
+}
+
+.image-title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
+
+.image-description {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.footer-contact-list {
+  color: var(--background-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.17;
+  opacity: 0.6;
+}
+
+.adress {
+  color: var(--background-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.header-contact-list:hover,
+.header-contact-list:focus,
+.footer-contact-list:hover,
+.footer-contact-list:focus {
+  color: var(--active-color);
+  text-decoration: underline;
+  text-decoration-color: var(--active-color);
+}
+
+.values-title {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+
+.values-text {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.values-text:hover,
+.values-text:focus,
+.values-title:hover,
+.values-title:focus {
+  text-decoration: underline;
+  text-decoration-color: var(--active-color);
+}
+
+.team {
+  background-size: 1600px 648px;
+  background-color: #f5f4fa;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.18;
+  font-weight: 700;
+  text-align: center;
+}
+
+.team-name {
+  font-size: 16px;
+  line-height: 1.17;
+  font-weight: 500;
+  text-align: center;
+}
+
+.team-function {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+}
